@@ -1,0 +1,86 @@
+.register-form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+
+  h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #c8c8c8;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+          margin-bottom: 10px;
+          padding: 10px;
+          font-size: 14px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          &:focus {
+              outline: none;
+              border-color: #4caf50;
+          }
+      }
+
+      .submit-button {
+          padding: 10px;
+          font-size: 16px;
+          background-color: #4caf50;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          &:hover {
+              background-color: #45a049;
+          }
+      }
+
+      .google-signup {
+          margin-top: 10px;
+          padding: 10px;
+          font-size: 16px;
+          background-color: #fff;
+          color: #333;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+              background-color: #f1f1f1;
+          }
+
+          &::before {
+              content: url('path-to-google-icon.svg'); // Include path to Google icon
+              margin-right: 8px;
+          }
+      }
+  }
+
+  p {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #666;
+
+      a {
+          color: #4caf50;
+          text-decoration: none;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+  }
+}

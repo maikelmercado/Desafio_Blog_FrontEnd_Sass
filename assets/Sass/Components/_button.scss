@@ -1,0 +1,10 @@
+.btn {
+    @include button-style(#fff, $primary-color);
+    
+}
+
+.nav-link{
+    color: $primary-color;
+    
+
+}

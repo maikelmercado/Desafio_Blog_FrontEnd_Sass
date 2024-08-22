@@ -1,0 +1,23 @@
+
+// Importar variables y mixins
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// Importar estilos base
+@import "base/reset";
+@import "base/typography";
+
+// Importar layout
+@import "layout/header";
+@import "layout/footer";
+
+// Importar componentes
+@import "components/button";
+@import "components/subscription";
+@import "components/logo__desafio";
+@import "components/nav";
+
+// Importar estilos de páginas
+
+@import "pages/registro";
+@import "pages/detalle-post";
